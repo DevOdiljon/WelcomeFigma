@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WelcomeFigma</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="geoaxborot">Geoaxborot moduli orqali siz o\'zingizga yaqin bo\'lgan migrantlar va boshqa muassasalar haqida ma\'lumot olishingiz mumkin</string>
+    <string name="Huquqiyaxborot">Huquqiy axborot moduli orqali siz migratsiya sohasiga oid yangiliklardan, qonunlardan xabardor bo\'lishingiz va online konsultatsiya olishingiz mumkin</string>
+    <string name="Tolovlarxizmatlari">To\'lov xizmatlari moduli orqali siz masofadan turib turli xil xizmatlarga to\'lovlar haqida ma\'lumot olishingiz va to\'lovlarni amalga oshirishingiz mumkin</string>
+    <string name="Qoshimchaimkoniyat">Qo\'shimcha imkoniyatlar moduli orqali siz interaktiv so\'zlashgichlar va lug\'atlar yordamida til bilish savodxonligingizni oshirishingiz mumkin</string>
+</resources>

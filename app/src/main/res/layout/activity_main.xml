@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="@id/tab_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-84dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        app:tabBackground="@drawable/tab_background"
+        app:tabGravity="center"
+        app:tabMode="fixed"
+        app:tabIndicator="@null"
+        />
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_enter"
+            android:layout_width="334dp"
+            android:layout_height="66dp"
+            android:textAlignment="center"
+            android:text="O’tkazib yuborish"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:background="@drawable/buttom"
+            app:backgroundTint="@null"/>
+
+       <FrameLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:visibility="visible"
+               android:id="@+id/btn_login_2"
+               android:layout_marginTop="20dp"
+               android:layout_width="334dp"
+               android:layout_height="66dp"
+               android:textAlignment="center"
+               android:enabled="false"
+               android:text="Ro‘yxatdan o‘tish"
+               android:textColor="#FFFFFF"
+               android:textSize="18sp"
+               android:background="@drawable/buttom_no_2"
+               app:backgroundTint="@null"/>
+
+           <Button
+               android:visibility="gone"
+               android:id="@+id/btn_login"
+               android:layout_marginTop="20dp"
+               android:layout_width="334dp"
+               android:layout_height="66dp"
+               android:textAlignment="center"
+               android:enabled="false"
+               android:text="Ro‘yxatdan o‘tish"
+               android:textColor="#FFFFFF"
+               android:textSize="18sp"
+               android:background="@drawable/buttom"
+               app:backgroundTint="@null"/>
+       </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
